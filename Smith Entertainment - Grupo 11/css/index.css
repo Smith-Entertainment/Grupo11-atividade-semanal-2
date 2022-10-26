@@ -5,21 +5,26 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+
+    margin: 0;
+    padding: 0;
 }
 
 .Testemunhos{
     color:#7C4032;
     font-size: 16px;
+    position: relative;
 }
 
 #Testymonials{
+    color:#7C4032;
     font-size: 64px;
     text-align: center;
 }
 
 blockquote{
-    position: relative;
-    display: inline-block;
+    margin: 0;
+    padding: 30px;
     width: 482px;
     height: 162px;
     border-width: 1px;
@@ -27,19 +32,46 @@ blockquote{
     border-color: #7C4032;
     border-radius: 30px;
     background-color: #FFFFFF;
-    padding: 30px;
     color: #333333;
     font-size: 14px;
-    align-items: center;
+}
+
+#caixa1{
+    position: relative;
+    inset: 0 auto auto 25%;
+    transform: translateX(-50%);
+}
+
+#caixa2{
+    position: relative;
+    inset: 0 auto auto 75%;
+    transform: translate(-50%, -100%);
+}
+
+#caixa3{
+    position: relative;
+    inset: 0 auto auto 25%;
+    transform: translate(-50%, -50%);
+}
+
+#caixa4{
+    position: relative;
+    inset: 0 auto auto 75%;
+    transform: translate(-50%, -150%);
 }
 
 button{
     width: 210px;
     height: 66px;
-    display: inline-block;
     background-color: #F3CE5E;
     border-style: none;
     border-radius: 57px;
     color: #7C4032;
     font-size: 18px;
+}
+
+#Botao{
+    display: block;
+    margin: 0 auto;
+    bottom: 200px;
 }
