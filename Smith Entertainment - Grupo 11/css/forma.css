@@ -1,0 +1,9 @@
+.forma{
+    line-height:0;
+    width:300px;
+    height:0;
+    border-style: solid;
+    border-color:#7C4032 #7C4032 red yellow;
+    border-width: 150px 100px 200px 200px;
+    border-radius: 0 0 0 200px;
+    }
