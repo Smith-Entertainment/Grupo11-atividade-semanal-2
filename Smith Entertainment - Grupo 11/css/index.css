@@ -1,1 +1,64 @@
-a
+
+h2{
+    justify-content: center;
+    margin-left: 35%;
+    color: #7C4032;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
+}
+.l{
+    justify-content: center;
+    position: relative;
+    margin-left: 20%;
+    border: 0px solid;
+    background: #E6AF99;
+    border-radius: 61px;
+    width: 374px;
+    height: 56px;
+    font-size: 22px;
+    padding: 5px;
+}
+.envio{
+    justify-content: center;
+    font-family: "Poppins";
+    font-weight: 900;
+    color: #7C4032;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    margin-left: 29%; 
+    border: 5px solid;
+    background: #ffffff;
+    border-radius: 61px;
+    width: 168px;
+    height: 56px;
+    font-size: 20px;
+    
+}
+
+footer{
+    justify-content: center;
+    border: 0px solid;
+    background: #55352D;
+    height: 117px;
+    width: 1260px;
+    position:relative ;
+    bottom:0px;
+    right: 20px;
+    
+}
+.contact{
+    justify-content: center;
+    position: relative;
+    margin-left: 800px;
+    bottom:350px;
+}
+.icon{
+    justify-content: center;
+    position: relative;
+    top: 38px;
+    right: 30px;
+}
