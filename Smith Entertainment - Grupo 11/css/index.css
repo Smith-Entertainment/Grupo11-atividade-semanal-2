@@ -1,0 +1,63 @@
+body{
+    background-color: #FEF4DE;
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+}
+
+.container-testy h3 {
+    color:#7C4032;
+    font-size: 16px;
+}
+
+.caixas{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 50px;
+}
+
+#Testymonials{
+    color:#7C4032;
+    font-size: 64px;
+    text-align: center;
+}
+
+blockquote{
+    margin: 0;
+    padding: 10px 30px;
+    width: 482px;
+    height: 162px;
+    border-width: 1px;
+    border-style: solid; /*Linhas 11,12 e 13 equivalem a border: 1px solid #7C4032; */
+    border-color: #7C4032;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-size: 14px;
+}
+
+button{
+    width: 210px;
+    height: 66px;
+    background-color: #F3CE5E;
+    border-style: none;
+    border-radius: 57px;
+    color: #7C4032;
+    font-size: 18px;
+}
+
+#bthelp{
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
