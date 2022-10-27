@@ -9,10 +9,36 @@ h2{
     font-size: 64px;
     line-height: 96px;
 }
-.l{
+.l1{
     justify-content: center;
     position: relative;
     margin-left: 20%;
+    border: 0px solid;
+    background: #E6AF99;
+    border-radius: 61px;
+    width: 374px;
+    height: 56px;
+    font-size: 22px;
+    padding: 5px;
+}
+.l2{
+    justify-content: center;
+    position: relative;
+    margin-left: 20%;
+    top: 10px;
+    border: 0px solid;
+    background: #E6AF99;
+    border-radius: 61px;
+    width: 374px;
+    height: 56px;
+    font-size: 22px;
+    padding: 5px;
+}
+.l3{
+    justify-content: center;
+    position: relative;
+    margin-left: 20%;
+    top: 20px;
     border: 0px solid;
     background: #E6AF99;
     border-radius: 61px;
@@ -29,7 +55,8 @@ h2{
     vertical-align: middle;
     text-align: center;
     position: relative;
-    margin-left: 29%; 
+    top: 90px;
+    margin-left: -22%; 
     border: 5px solid;
     background: #ffffff;
     border-radius: 61px;
@@ -53,8 +80,9 @@ footer{
 .contact{
     justify-content: center;
     position: relative;
-    margin-left: 800px;
-    bottom:350px;
+    margin-left: 750px;
+    
+    bottom:230px;
 }
 .icon{
     justify-content: center;
