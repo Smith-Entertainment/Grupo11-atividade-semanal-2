@@ -1,1 +1,32 @@
-a
+.titulo1{
+
+    color: white;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 75px;
+
+}
+.png{
+
+display: block ;
+margin: 0 auto;
+
+}
+body{
+    background-color:  #663128;
+}
+.botao{
+
+margin-left: 590px; /* posiçao do botao na tela*/
+position: relative;
+top: 40px;/* posiçao do botao na tela pra cima*/
+background-color: #F3CE5E;/* cor do botao*/
+border-style: none;/*tirar a borda preta do botao*/
+border-radius: 57px;/* deixar o formato do botao como redondo*/
+width: 150px;/* largura do botao*/
+height: 56px;/* altura do botao*/
+font-size: 17px;/* tamanho da fonte que esta no botao*/
+font-family: "Poppins";/* fonte importada para o botao*/
+font-weight: 700;/* grossura da palavra dentro do botao*/
+color: #663128;/* cor da palavra help-me dentro do botao*/
+}
