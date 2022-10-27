@@ -1,36 +1,62 @@
-<<<<<<< HEAD
-#oi
-=======
-.titulo1{
-
-    color: white;
-    text-align: center;
-    font-family: "Poppins";
-    font-size: 75px;
-
-}
-.png{
-
-display: block ;
-margin: 0 auto;
-
-}
 body{
-    background-color:  #663128;
-}
-.botao{
+    background-color: #FEF4DE;
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 
-margin-left: 590px; /* posiçao do botao na tela*/
-position: relative;
-top: 40px;/* posiçao do botao na tela pra cima*/
-background-color: #F3CE5E;/* cor do botao*/
-border-style: none;/*tirar a borda preta do botao*/
-border-radius: 57px;/* deixar o formato do botao como redondo*/
-width: 150px;/* largura do botao*/
-height: 56px;/* altura do botao*/
-font-size: 17px;/* tamanho da fonte que esta no botao*/
-font-family: "Poppins";/* fonte importada para o botao*/
-font-weight: 700;/* grossura da palavra dentro do botao*/
-color: #663128;/* cor da palavra help-me dentro do botao*/
+    margin: 0;
+    padding: 0;
 }
->>>>>>> 95f17d7a589234ad38d82a92346323ebd91f0127
+
+.Testemunhos{
+    color:#7C4032;
+    font-size: 16px;
+}
+
+.linha1{
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 50px;
+}
+
+#Testymonials{
+    color:#7C4032;
+    font-size: 64px;
+    text-align: center;
+}
+
+blockquote{
+    margin: 0;
+    padding: 30px;
+    width: 482px;
+    height: 162px;
+    border-width: 1px;
+    border-style: solid; /*Linhas 11,12 e 13 equivalem a border: 1px solid #7C4032; */
+    border-color: #7C4032;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-size: 14px;
+}
+
+button{
+    width: 210px;
+    height: 66px;
+    background-color: #F3CE5E;
+    border-style: none;
+    border-radius: 57px;
+    color: #7C4032;
+    font-size: 18px;
+}
+
+#Botao{
+    display: block;
+    margin: 0 auto;
+    bottom: 200px;
+}
