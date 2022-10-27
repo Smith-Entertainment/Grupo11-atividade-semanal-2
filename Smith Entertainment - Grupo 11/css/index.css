@@ -10,13 +10,13 @@ body{
     padding: 0;
 }
 
-.Testemunhos{
+.Testemunhos h3 {
     color:#7C4032;
     font-size: 16px;
 }
 
-.linha1{
-    padding: 0 10%;
+.caixas{
+    padding: 0 15%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -33,7 +33,7 @@ body{
 
 blockquote{
     margin: 0;
-    padding: 30px;
+    padding: 10px 30px;
     width: 482px;
     height: 162px;
     border-width: 1px;
@@ -58,5 +58,4 @@ button{
 #Botao{
     display: block;
     margin: 0 auto;
-    bottom: 200px;
 }
