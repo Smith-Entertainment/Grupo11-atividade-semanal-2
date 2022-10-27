@@ -9,7 +9,7 @@
 
 body {
     background-color: #FEF4DE; /*#7C4032*/
-    /*background-image: url(../img/Background.png);*/
+    background-image: url(../img/Background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -20,9 +20,9 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #663128;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
     padding: 130px; /*movimenta a home*/
 }
 
@@ -80,6 +80,27 @@ body {
 #home-img {
     display: flex;
     height: 450px;
+}
+
+#onda-superior{
+    display: block;
+    height:150px;
+}
+
+#onda-superior img{
+    display: block;
+    padding-right: 0;
+    width: 500px;
+    margin-right: 0;
+}
+
+
+#onda-inferior{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 120px;
 }
 /*
 #elipse{
