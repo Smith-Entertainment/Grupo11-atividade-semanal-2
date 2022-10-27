@@ -1,51 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-body{
-    background-color: #FEF4DE;
-    background-image: url(../img/Background.png);
+
+body {
+    background-color: #FEF4DE; /*#7C4032*/
+    /*background-image: url(../img/Background.png);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
-.home{
+
+.home {
     font-family: 'Poppins', sans-serif;
     color: #663128;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding: 100px;
+    padding: 130px; /*movimenta a home*/
 }
-.home h1{
+
+.home h1 {
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 900;
     font-size: 80px;
-    
-    
-  
 }
-.home h2{
+
+.home h2 {
 
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: justify;  
+    text-align: justify;
     font-weight: 600;
     font-size: 50px;
-    
-   
-    
 }
-.home p{
-    
+
+.home p {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,12 +53,12 @@ body{
     font-weight: 600;
     font-size: 10.9px;
     line-height: 25px;
-    
+
     height: 100px;
     width: 380px;
-
 }
-#home-botao-helpme{
+
+#home-botao-helpme {
     background-color: #F3CE5E;
     font-family: 'Poppins', sans-serif;
     color: #663128;
@@ -67,18 +67,32 @@ body{
     border-radius: 25px;
     width: 120px;
     height: 40px;
-    
-
 }
-#home-botao-aboutus{
+
+#home-botao-aboutus {
     background-color: none;
     font-family: 'Poppins', sans-serif;
     color: #663128;
     font-weight: 500;
     padding-left: 30px;
-
 }
-#home-img{
+
+#home-img {
     display: flex;
     height: 450px;
 }
+/*
+#elipse{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    background-image: url(../img/Background.png);
+    background-color: #FEF4DE;
+    opacity: 0.2;
+    height: 1000px;
+    width: 500px;
+    align-items: left;
+    border-radius: 50%;
+    transform: rotate(-85deg);
+}
+*/
