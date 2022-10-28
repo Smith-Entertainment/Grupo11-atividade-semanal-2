@@ -86,6 +86,11 @@ h2 {
     font-size: 64px;
 }
 
+.contact-tudo{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
 .l1 {
     justify-content: center;
     position: relative;
@@ -163,7 +168,7 @@ footer {
 .icon {
     justify-content: center;
     position: relative;
-    top: 38px;
+    top: 28px;
     right: 30px;
 }
 
