@@ -9,8 +9,7 @@
 
 body {
     background-color: #FEF4DE;
-    /*#7C4032*/
-    background-image: url(../img/Background.png);
+    background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
