@@ -139,8 +139,8 @@ h2 {
     vertical-align: middle;
     text-align: center;
     position: relative;
-    top: 100px;
-    margin-left: -22%;
+    top: 50px;
+    margin-left: 28%;
     border: 5px solid;
     background: #ffffff;
     border-radius: 61px;
@@ -200,7 +200,6 @@ footer {
     align-items: flex-end;
     justify-content: space-around;
     padding: 130px;
-    /*movimenta a home*/
 }
 
 .home h1 {
