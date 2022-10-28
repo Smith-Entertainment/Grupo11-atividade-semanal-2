@@ -1,6 +1,16 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
     background-color: #FEF4DE;
-    background-image: url("../img/Background.png");
+    /*#7C4032*/
+    background-image: url(../img/Background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -13,11 +23,11 @@ body{
 }
 
 .container-testy h3 {
-    color:#7C4032;
+    color: #7C4032;
     font-size: 16px;
 }
 
-.caixas{
+.caixas {
     padding: 0 5%;
     display: flex;
     justify-content: space-around;
@@ -27,19 +37,20 @@ body{
     gap: 50px;
 }
 
-#Testymonials{
-    color:#7C4032;
+#Testymonials {
+    color: #7C4032;
     font-size: 64px;
     text-align: center;
 }
 
-blockquote{
+blockquote {
     margin: 0;
     padding: 10px 30px;
     width: 482px;
     height: 162px;
     border-width: 1px;
-    border-style: solid; /*Linhas 11,12 e 13 equivalem a border: 1px solid #7C4032; */
+    border-style: solid;
+    /*Linhas 11,12 e 13 equivalem a border: 1px solid #7C4032; */
     border-color: #7C4032;
     border-radius: 30px;
     background-color: #FFFFFF;
@@ -47,7 +58,7 @@ blockquote{
     font-size: 14px;
 }
 
-button{
+button {
     width: 210px;
     height: 66px;
     background-color: #F3CE5E;
@@ -55,16 +66,18 @@ button{
     border-radius: 57px;
     color: #7C4032;
     font-size: 18px;
+    font-weight: 700;
 }
 
-#bthelp{
+#bthelp {
     display: block;
     margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
 }
 
-h2{
+h2 {
     justify-content: center;
     text-align: center;
     color: #7C4032;
@@ -72,7 +85,8 @@ h2{
     font-weight: 900;
     font-size: 64px;
 }
-.l1{
+
+.l1 {
     justify-content: center;
     position: relative;
     margin-left: 20%;
@@ -85,7 +99,8 @@ h2{
     font-size: 22px;
     padding: 5px;
 }
-.l2{
+
+.l2 {
     justify-content: center;
     position: relative;
     margin-left: 20%;
@@ -98,7 +113,8 @@ h2{
     font-size: 22px;
     padding: 5px;
 }
-.l3{
+
+.l3 {
     justify-content: center;
     position: relative;
     margin-left: 20%;
@@ -111,7 +127,8 @@ h2{
     font-size: 22px;
     padding: 5px;
 }
-.envio{
+
+.envio {
     justify-content: center;
     font-weight: 900;
     color: #7C4032;
@@ -119,58 +136,129 @@ h2{
     text-align: center;
     position: relative;
     top: 100px;
-    margin-left: -22%; 
+    margin-left: -22%;
     border: 5px solid;
     background: #ffffff;
     border-radius: 61px;
     width: 168px;
     height: 56px;
     font-size: 20px;
-    
+
 }
 
-footer{
-    justify-content: center;
-    border: 0px solid;
+footer {
     background: #55352D;
     height: 117px;
-    width: 1260px;
-    position:relative ;
-    bottom:0px;
-    right: 20px;
-    
+    width: auto;
 }
-.contact{
+
+.contact {
     justify-content: center;
     position: relative;
     margin-left: 750px;
-    
-    bottom:200px;
+
+    bottom: 200px;
 }
-.icon{
+
+.icon {
     justify-content: center;
     position: relative;
     top: 38px;
     right: 30px;
 }
 
-.container-contact{
+.container-contact {
     background-color: white;
 }
 
-.titulo1{
+.titulo1 {
 
     color: white;
     text-align: center;
     font-size: 75px;
+}
+
+.png {
+
+    display: block;
+    margin: 0 auto;
 
 }
-.png{
 
-display: block ;
-margin: 0 auto;
+.container-services {
+    background-color: #663128;
+}
 
+.home {
+    color: #663128;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 130px;
+    /*movimenta a home*/
 }
-.container-services{
-    background-color:  #663128;
+
+.home h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 80px;
 }
+
+.home h2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.home p {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 10.9px;
+    line-height: 25px;
+
+    height: 100px;
+    width: 380px;
+}
+
+#home-botao-aboutus {
+    background-color: none;
+    color: #663128;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+#home-img {
+    display: flex;
+    height: 450px;
+}
+/*
+#onda-superior {
+    display: block;
+    height: 150px;
+}
+
+#onda-superior img {
+    display: block;
+    padding-right: 0;
+    width: 500px;
+    margin-right: 0;
+}
+
+
+#onda-inferior {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 120px;
+}*/
